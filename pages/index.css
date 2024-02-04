@@ -59,7 +59,7 @@
   position: absolute;
   top: 30px;
   right: 80px;
-  font-weight: 500s;
+  font-weight: 500;
 }
 
 .nav__link {
@@ -86,6 +86,7 @@ span {
 
 .header__description {
   max-width: 683px;
+  margin-bottom: 28px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -127,4 +128,23 @@ span {
   position: absolute;
   bottom: 40px;
   right: 80px;
+}
+
+/* Página de Recetas */
+.content__recipes {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.recipes__title {
+  max-width: 580px;
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+.recipes_subtitle {
+  max-width: 438px;
 }
