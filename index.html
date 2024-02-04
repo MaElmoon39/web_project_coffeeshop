@@ -1,34 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Página web de la cafetería de TripleTen">
-  <meta name="author" content="María Tortello">
-  <meta name="keywords" content="MaríaT, café, TripleTen, bebidas">
-  <title>TripleT Café</title>
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="page">
-    <header class="header"></header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página web de la cafetería de TripleTen"
+    />
+    <meta name="author" content="María Tortello" />
+    <meta name="keywords" content="MaríaT, café, TripleTen, bebidas" />
+    <title>TripleT Café</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Peaks Coffee Logo"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#recipes-section" class="nav__link">Recetas</a>
+            </li>
+            <li>
+              <a href="#reservation-section" class="nav__link"
+                >Reservar una mesa</a
+              >
+            </li>
+            <li>
+              <a href="#menu-section" class="nav__link">Menú</a>
+            </li>
+            <!-- <li>
+              <a href="#about-section" class="nav__link">Sobre nosotros</a>
+            </li> -->
+            <li>
+              <a href="#contacts-section" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
 
-    <main class="content">
-      <section class="content__recipes"></section>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café de especialidad</span>
+          <span>en Triple Peaks</span>
+        </h1>
 
-      <section class="content__reservation"></section>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y una vibra acogedora que motivarán tu creatividad.
+        </p>
 
-      <section class="content__menu"></section>
+        <img src="./images/inside_coffee_shop.png" alt="Inside the coffee shop" class="header__image" />
 
-      <section class="content__about"></section>
-    </main>
+        <div class="header__footer">
+          <div class="header__paragraph">
+            <h3 class="header__footer-heading">Horario:</h3>
+            <ul class="header__list">
+              <li class="header__list-item">
+                Lunes a viernes (de 10:00 a 19:00)
+              </li>
+              <li class="header__list-item">
+                Sábado a Domingo (de 11:00 a 18:00)
+              </li>
+            </ul>
+          </div>
+          <p class="header__address">
+            Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </p>
+        </div>
+      </header>
 
-    <footer class="footer"></footer>
-  </div>
-</body>
+      <main class="content">
+        <section class="content__recipes"></section>
+
+        <section class="content__reservation"></section>
+
+        <section class="content__menu"></section>
+
+        <section class="content__about"></section>
+      </main>
+
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>

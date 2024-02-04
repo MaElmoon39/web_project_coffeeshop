@@ -3,8 +3,128 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto; /*para centrar bloque en pantallas con ancho >1600px*/
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 20px;
-  /* font-family: 'Noto Serif', 'Times New Roman', serif; */
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  background-image: url(../images/background_header.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__title {
+  max-width: 729px;
+  margin-top: 183px;
+}
+
+.nav {
+  /* Agrega las propiedades flex aquí */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  /* Restablece los estilos predeterminados de list aquí */
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  font-weight: 500s;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+span {
+  display: block;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  color: #2f80ed;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__description {
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  z-index: 1;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  font-weight: 500;
+  color: #838383;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__footer-heading {
+  margin: 0;
+  padding: 0;
+}
+
+.header__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__address {
+  margin: 0;
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
 }
