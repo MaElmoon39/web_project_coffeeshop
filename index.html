@@ -125,69 +125,71 @@
           <h2 class="reservation__title">Reservar una mesa</h2>
 
           <div class="reservation__form">
-            <fieldset class="form__fieldset">
-              <label for="title" class="form__label">Nombre *</label>
-              <input
-                type="text"
-                class="form__input"
-                id="title"
-                name="title"
-                placeholder="Nombre Apellido"
-                required
-              />
-
-              <label for="numberDiners" class="form__label"
-                >Número de comensales *</label
-              >
-              <input
-                type="number"
-                class="form__input"
-                id="numberDiners"
-                name="numberDiners"
-                placeholder="1-8"
-                required
-              />
-
-              <label for="dateTimeLocal" class="form__label"
-                >Fecha y hora *</label
-              >
-              <input
-                type="datetime-local"
-                class="form__input"
-                id="dateTimeLocal"
-                name="dateTimeLocal"
-                required
-              />
-
-              <label for="email" class="form__label"
-                >Tu correo electrónico *</label
-              >
-              <input
-                type="email"
-                class="form__input"
-                id="email"
-                name="email"
-                placeholder="email@email.com"
-              />
-
-              <button type="submit" class="form__button">
-                Reservar una mesa
-              </button>
-
-              <label for="termsOfUse" class="form__checkbox">
+            <form class="form__admin">
+              <fieldset class="form__fieldset">
+                <label for="title" class="form__label">Nombre *</label>
                 <input
-                  type="checkbox"
-                  name="TerminosUso"
-                  id="termsOfUse"
-                  value="termsOfUse"
-                  class="form__input form__input_checkbox_size"
+                  type="text"
+                  class="form__input"
+                  id="title"
+                  name="title"
+                  placeholder="Nombre Apellido"
                   required
                 />
-                <span class="form__checkbox-label"
-                  >Acepto los términos de uso</span
+
+                <label for="numberDiners" class="form__label"
+                  >Número de comensales *</label
                 >
-              </label>
-            </fieldset>
+                <input
+                  type="number"
+                  class="form__input"
+                  id="numberDiners"
+                  name="numberDiners"
+                  placeholder="1-8"
+                  required
+                />
+
+                <label for="dateTimeLocal" class="form__label"
+                  >Fecha y hora *</label
+                >
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="dateTimeLocal"
+                  name="dateTimeLocal"
+                  required
+                />
+
+                <label for="email" class="form__label"
+                  >Tu correo electrónico *</label
+                >
+                <input
+                  type="email"
+                  class="form__input"
+                  id="email"
+                  name="email"
+                  placeholder="email@email.com"
+                />
+
+                <button type="submit" class="form__button">
+                  Reservar una mesa
+                </button>
+
+                <label for="termsOfUse" class="form__checkbox">
+                  <input
+                    type="checkbox"
+                    name="TerminosUso"
+                    id="termsOfUse"
+                    value="termsOfUse"
+                    class="form__input form__input_checkbox_size"
+                    required
+                  />
+                  <span class="form__checkbox-label"
+                    >Acepto los términos de uso</span
+                  >
+                </label>
+              </fieldset>
+            </form>
           </div>
         </section>
 
