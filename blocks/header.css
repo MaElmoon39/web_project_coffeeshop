@@ -51,6 +51,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #2f80ed;
+}
+
 span {
   display: block;
   font-weight: 500;

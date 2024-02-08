@@ -6,11 +6,11 @@
   padding: 60px 100px 60px 80px;
 }
 
-.footer__columns {
+.footer__content {
   display: flex;
 }
 
-.footer__column_content_social {
+.footer__social {
   margin-left: auto;
 }
 
@@ -34,20 +34,21 @@
   margin: 0;
 }
 
-.footer__column-heading {
+.footer__social-heading {
   font-size: 16px;
   line-height: 20px;
   margin: 0 0 20px;
+  font-weight: bold;
 }
 
-.footer__column-link {
+.footer__social-link {
   color: white;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
 }
 
-.footer__column-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 
@@ -59,4 +60,6 @@
 
 .footer__copyright {
   margin: 108px 0 0;
+  font-size: 16px;
+  line-height: 20px;
 }
