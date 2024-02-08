@@ -10,3 +10,6 @@ El proyecto del Sprint 3 se basa en diseñar la página web de la cafetería de 
 
 ## Imágenes, GIF, screenshots de soporte
 ![image](https://github.com/MaElmoon39/web_project_coffeeshop/assets/90271019/d5cce5b9-40f0-4bcb-9949-fdc2f37b58b8)
+https://github.com/MaElmoon39/web_project_coffeeshop/assets/90271019/44d1414e-e7d5-4c6b-886e-8b284580aca0
+
+
