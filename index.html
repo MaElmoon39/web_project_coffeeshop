@@ -11,7 +11,6 @@
     <meta name="keywords" content="MaríaT, café, TripleTen, bebidas" />
     <title>TripleT Café</title>
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -197,10 +196,64 @@
 
         <section class="content__menu" id="menu-section"></section>
 
-        <section class="content__about" id="contacts-section"></section>
+        <section class="about content__about" id="contacts-section">
+          <h2 class="about__title">Sobre la cafetería</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nuestra cafetería se ubica en la Biblioteca Triple Peaks. Cuenta
+              con 6 mesas y WiFi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nuestra principal misión es mantener a nuestros comensales cómodos
+              y con energía.
+            </p>
+            <p class="about__paragraph">
+              Además, buscamos reducir nuestro impacto ambiental, por lo que no
+              vendemos tazas de un solo uso. ¡Pero puedes comprar una de
+              nuestras tazas reutilizables!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Triple Peaks Library Logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2023 María Tortello</p>
+      </footer>
     </div>
   </body>
 </html>

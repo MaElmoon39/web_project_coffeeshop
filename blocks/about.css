@@ -1,0 +1,50 @@
+/* Página "acerca de la cafetería" */
+.content__about {
+  padding: 100px 80px;
+  background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  gap: 120px;
+  display: flex;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  z-index: 1;
+  max-width: 251px;
+}
+
+.about__content {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  z-index: 1;
+}
+
+.about__paragraph {
+  margin: 0 0 32px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
