@@ -1,0 +1,36 @@
+/* Agrega las propiedades flex aquí */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none; /* Restablece los estilos predeterminados de list aquí */
+  padding: 0;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  font-weight: 500;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
