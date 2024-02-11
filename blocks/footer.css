@@ -41,6 +41,12 @@
   font-weight: bold;
 }
 
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
 .footer__social-link {
   color: white;
   font-size: 16px;
@@ -50,12 +56,6 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
-}
-
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-  padding-right: 10px;
 }
 
 .footer__copyright {
